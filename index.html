@@ -280,7 +280,7 @@
     overflow:hidden;
   }
   .sig-photo img{
-    width:100%;height:100%;object-fit:cover;
+    width:100%;height:100%;object-fit:cover;object-position:center 18%;
     filter:contrast(1.05) brightness(.95);
   }
   .sig-photo::after{
@@ -786,7 +786,7 @@
     .hero-photo .stamp{display:none}
     .about-creds{grid-template-columns:1fr}
     .sig-grid{grid-template-columns:1fr;min-height:auto}
-    .sig-photo{aspect-ratio:16/9}
+    .sig-photo{aspect-ratio:4/5;max-height:560px}
     .sig-photo::after{background:linear-gradient(180deg, transparent 60%, var(--ink) 100%)}
     .sig-text{padding:48px 28px}
     .dashboard-wrap::before{font-size:10px;padding:6px 14px}
