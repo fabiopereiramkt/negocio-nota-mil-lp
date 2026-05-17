@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "negocio-nota-mil-lp",
+  "compatibility_date": "2026-05-17",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "raio-x-financeiro"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
